@@ -18,25 +18,39 @@
             min-height: 100vh;
         }
 
-        /* 1. Main White Frame Ko Khatam Kar Ke Pure Black Aur Neon Glow Frame Banana */
+               /* 1. Main Container Spacing Fixed for Desktop */
         .main-container {
             background: #000000 !important;
             background-color: #000000 !important;
             border: 2px solid #00f2fe;
             border-radius: 16px;
-            padding: 30px;
-            max-width: 1200px;
+            padding: 15px 20px; /* Padding kam ki taake buttons upar aayein */
+            max-width: 1100px;
             width: 100%;
             box-shadow: 0 0 25px rgba(0, 242, 254, 0.4), 0 0 50px rgba(255, 0, 127, 0.3);
             text-align: center;
         }
 
-        /* Profile Header Layout */
+        /* Profile Header Spacing Fixed */
         .profile-header {
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-bottom: 30px;
+            margin-bottom: 15px; /* Margin kam ki */
+        }
+
+        /* Profile Box */
+        .my-profile-box {
+            width: 90px; /* Size thoda chota kiya */
+            height: 90px;
+            background: #000000 !important;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 20px #00f2fe, 0 0 35px #ff007f;
+            animation: profileFastGlow 1.2s infinite alternate;
+            margin-bottom: 10px;
         }
 
         /* Profile Box Black with Fast Neon Glow */
