@@ -130,101 +130,26 @@
 </head>
 <body>
 
- <div class="website-neon-wrapper">
-    <!-- Charon taraf fast ghumne wali roshni ki lines -->
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-
-    <div class="inner-content-area">
-        <!-- Ya Ali Madad Dabba -->
-        <div class="card-fixed-black">
-            <div class="neon-box-container">
-                <div class="inner-dark-box">
-                    <h2 class="glowing-urdu-text-box">یا علی madad</h2>
-                </div>
-            </div>
-        </div>
-    </div>
+     </div>
 </div>
 
 <style>
-/* ⚡ Poori Website Ka Bada Dabba Jis Par Light Ghumegi ⚡ */
-.website-neon-wrapper {
-    position: relative;
-    max-width: 450px; /* Aapke content ke hisab se width */
-    margin: 20px auto;
-    background: #ffffff; /* Andar ka background white hi rahega */
-    border-radius: 16px;
-    overflow: hidden;
-    padding: 10px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+/* 1. Purane White Frame Ko Mukammal Black Aur Glowing Karne Ka Code */
+.card, .profile-container, div[style*="background: white"], div[style*="background: #fff"], div[style*="background:#fff"] {
+    background: #000000 !important;
+    background-color: #000000 !important;
+    border: none !important;
+    border-radius: 16px !important;
+    box-shadow: 0 0 20px #00f2fe, 0 0 35px #ff007f !important;
+    animation: mainFrameGlow 1.5s infinite alternate !important;
 }
 
-/* Outer Border Fast Light Lines Setting */
-.website-neon-wrapper > span {
-    position: absolute;
-    display: block;
-    z-index: 10;
+@keyframes mainFrameGlow {
+    0% { box-shadow: 0 0 15px #00f2fe, 0 0 25px #ff007f; }
+    100% { box-shadow: 0 0 30px #ff007f, 0 0 50px #00f2fe; }
 }
 
-/* 1. Top Border Light */
-.website-neon-wrapper > span:nth-child(1) {
-    top: 0; left: -100%; width: 100%; height: 5px;
-    background: linear-gradient(90deg, transparent, #00f2fe, #ff007f, #00f2fe);
-    animation: megaFastTop 1.2s linear infinite;
-}
-@keyframes megaFastTop {
-    0% { left: -100%; }
-    50%, 100% { left: 100%; }
-}
-
-/* 2. Right Border Light */
-.website-neon-wrapper > span:nth-child(2) {
-    top: -100%; right: 0; width: 5px; height: 100%;
-    background: linear-gradient(180deg, transparent, #00f2fe, #ff007f, #00f2fe);
-    animation: megaFastRight 1.2s linear infinite;
-    animation-delay: 0.3s;
-}
-@keyframes megaFastRight {
-    0% { top: -100%; }
-    50%, 100% { top: 100%; }
-}
-
-/* 3. Bottom Border Light */
-.website-neon-wrapper > span:nth-child(3) {
-    bottom: 0; right: -100%; width: 100%; height: 5px;
-    background: linear-gradient(270deg, transparent, #00f2fe, #ff007f, #00f2fe);
-    animation: megaFastBottom 1.2s linear infinite;
-    animation-delay: 0.6s;
-}
-@keyframes megaFastBottom {
-    0% { right: -100%; }
-    50%, 100% { right: 100%; }
-}
-
-/* 4. Left Border Light */
-.website-neon-wrapper > span:nth-child(4) {
-    bottom: -100%; left: 0; width: 5px; height: 100%;
-    background: linear-gradient(360deg, transparent, #00f2fe, #ff007f, #00f2fe);
-    animation: megaFastLeft 1.2s linear infinite;
-    animation-delay: 0.9s;
-}
-@keyframes megaFastLeft {
-    0% { bottom: -100%; }
-    50%, 100% { bottom: 100%; }
-}
-
-/* Inside Content Area Layout Protection */
-.inner-content-area {
-    position: relative;
-    z-index: 1;
-    background: transparent;
-    padding: 10px;
-}
-
-/* Ya Ali Madad Inner Box Design */
+/* 2. Ya Ali Madad Inner Box Design Fix */
 .card-fixed-black {
     background: #000000 !important;
     padding: 15px;
