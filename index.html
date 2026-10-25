@@ -354,73 +354,16 @@
         </a>
     </div>
   
-  <style>
-/* Ghoomti Hui Light Ka Baahri Box (Card Main Style) */
-.card {
-    position: relative;
-    width: 100%;
-    max-width: 400px;
-    margin: 20px auto;
-    background: #0e0e0e !important;
-    border-radius: 20px;
-    overflow: hidden;
-    padding: 4px !important;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-    z-index: 1;
-}
-
-/* Background mein ghoomne wale chamkdar rang */
-.card::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: conic-gradient(#ff4500, #ff007f, #00f5ff, #00ff7f, #ffea00, #ff4500);
-    animation: rotateBorder 4s linear infinite;
-    z-index: -2;
-}
-
-/* Andruni kaala dabba jo border banayega */
-.card::after {
-    content: '';
-    position: absolute;
-    top: 4px;
-    left: 4px;
-    right: 4px;
-    bottom: 4px;
-    background: #0e0e0e;
-    border-radius: 16px;
-    z-index: -1;
-}
-
-/* Border ghoomane ki animation */
-@keyframes rotateBorder {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-/* Heading Text (Naam) ka neon glow effect */
-h1 {
-    position: relative;
-    z-index: 3;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2), 0 0 20px rgba(0, 245, 255, 0.5);
-}
-</style>
-
-
-</body>
-</html>
-.profile-container {
+<style>
+.profile-container, .profile-img, div[style*="background: white"], .card > div:first-child {
     background: #000000 !important;
     background-color: #000000 !important;
     border-radius: 50% !important;
     box-shadow: 0 0 15px #00f2fe, 0 0 30px #ff007f !important;
-    animation: profileNeon 1.2s infinite alternate !important;
+    animation: profileNeonFast 1.2s infinite alternate !important;
 }
 
-@keyframes profileNeon {
+@keyframes profileNeonFast {
     0% {
         box-shadow: 0 0 10px #00f2fe, 0 0 20px #ff007f;
         transform: scale(1);
@@ -428,6 +371,12 @@ h1 {
     100% {
         box-shadow: 0 0 25px #ff007f, 0 0 45px #00f2fe;
         transform: scale(1.02);
-    }
-}
 
+}
+</style>
+
+</style>
+
+
+</body>
+</html>
