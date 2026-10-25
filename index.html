@@ -412,3 +412,22 @@ h1 {
 
 </body>
 </html>
+.profile-container {
+    background: #000000 !important;
+    background-color: #000000 !important;
+    border-radius: 50% !important;
+    box-shadow: 0 0 15px #00f2fe, 0 0 30px #ff007f !important;
+    animation: profileNeon 1.2s infinite alternate !important;
+}
+
+@keyframes profileNeon {
+    0% {
+        box-shadow: 0 0 10px #00f2fe, 0 0 20px #ff007f;
+        transform: scale(1);
+    }
+    100% {
+        box-shadow: 0 0 25px #ff007f, 0 0 45px #00f2fe;
+        transform: scale(1.02);
+    }
+}
+
