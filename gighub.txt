@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHULAM MUJTABA PANHWAR | VIP Official</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background: linear-gradient(135deg, #090d16, #111827, #020617);
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .card {
+            background: #000000 !important;
+            background-color: #000000 !important;
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(56, 189, 248, 0.2);
+            max-width: 420px;
+            width: 100%;
+            padding: 35px 20px;
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 25px rgba(56, 189, 248, 0.1);
+        }
+        .profile-container {
+            position: relative;
+            width: 110px;
+            height: 110px;
+            margin: 0 auto 20px auto;
+        }
+        .profile-img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 3px solid #38bdf8;
+            object-fit: cover;
+            box-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
+            background: #1e293b;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            color: #38bdf8;
+            font-weight: bold;
+            animation: spinLogo 8s linear infinite;
+        }
+        .verified-badge {
+            position: absolute;
+            bottom: 2px;
+            right: 2px;
+            background: #38bdf8;
+            color: #0f172a;
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: bold;
+            box-shadow: 0 0 10px rgba(56, 189, 248, 0.8);
+        }
+        h1 {
+            font-size: 26px;
+            margin-bottom: 5px;
+            letter-spacing: 0.5px;
+            color: #ffffff !important;
+        }
+        p {
+            color: #94a3b8;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff !important;
+            text-decoration: none;
+            padding: 15px;
+            margin: 14px 0;
+            border-radius: 14px;
+            font-weight: 600;
+            font-size: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            gap: 10px; /* Icon aur text ke beech space */
+        }
+        .btn svg {
+            width: 20px;
+            height: 20px;
+            fill: #ffffff; /* Icons ka color white */
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            filter: brightness(1.2);
+            box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+        }
+        .youtube-btn { background: #FF0000; }
+        .tiktok-btn { background: #000000; border: 1px solid rgba(255, 255, 255, 0.2); }
+        .instagram-btn { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
+        .twitter-btn { background: #1DA1F2; }
+        .pinterest-btn { background: #E60023; }
+        .monetag-btn {
+            background: linear-gradient(135deg, #f43f5e, #e11d48);
+            border: none;
+            box-shadow: 0 4px 15px rgba(225, 29, 72, 0.4);
+        }
+        .monetag-btn:hover {
+            background: linear-gradient(135deg, #e11d48, #be123c);
+            color: #ffffff !important;
+            box-shadow: 0 8px 25px rgba(225, 29, 72, 0.6);
+        }
+        @keyframes spinLogo {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+
+ <div class="website-neon-wrapper">
+    <!-- Charon taraf fast ghumne wali roshni ki lines -->
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+
+    <div class="inner-content-area">
+        <!-- Ya Ali Madad Dabba -->
+        <div class="card-fixed-black">
+            <div class="neon-box-container">
+                <div class="inner-dark-box">
+                    <h2 class="glowing-urdu-text-box">یا علی madad</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+/* ⚡ Poori Website Ka Bada Dabba Jis Par Light Ghumegi ⚡ */
+.website-neon-wrapper {
+    position: relative;
+    max-width: 450px; /* Aapke content ke hisab se width */
+    margin: 20px auto;
+    background: #ffffff; /* Andar ka background white hi rahega */
+    border-radius: 16px;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* Outer Border Fast Light Lines Setting */
+.website-neon-wrapper > span {
+    position: absolute;
+    display: block;
+    z-index: 10;
+}
+
+/* 1. Top Border Light */
+.website-neon-wrapper > span:nth-child(1) {
+    top: 0; left: -100%; width: 100%; height: 5px;
+    background: linear-gradient(90deg, transparent, #00f2fe, #ff007f, #00f2fe);
+    animation: megaFastTop 1.2s linear infinite;
+}
+@keyframes megaFastTop {
+    0% { left: -100%; }
+    50%, 100% { left: 100%; }
+}
+
+/* 2. Right Border Light */
+.website-neon-wrapper > span:nth-child(2) {
+    top: -100%; right: 0; width: 5px; height: 100%;
+    background: linear-gradient(180deg, transparent, #00f2fe, #ff007f, #00f2fe);
+    animation: megaFastRight 1.2s linear infinite;
+    animation-delay: 0.3s;
+}
+@keyframes megaFastRight {
+    0% { top: -100%; }
+    50%, 100% { top: 100%; }
+}
+
+/* 3. Bottom Border Light */
+.website-neon-wrapper > span:nth-child(3) {
+    bottom: 0; right: -100%; width: 100%; height: 5px;
+    background: linear-gradient(270deg, transparent, #00f2fe, #ff007f, #00f2fe);
+    animation: megaFastBottom 1.2s linear infinite;
+    animation-delay: 0.6s;
+}
+@keyframes megaFastBottom {
+    0% { right: -100%; }
+    50%, 100% { right: 100%; }
+}
+
+/* 4. Left Border Light */
+.website-neon-wrapper > span:nth-child(4) {
+    bottom: -100%; left: 0; width: 5px; height: 100%;
+    background: linear-gradient(360deg, transparent, #00f2fe, #ff007f, #00f2fe);
+    animation: megaFastLeft 1.2s linear infinite;
+    animation-delay: 0.9s;
+}
+@keyframes megaFastLeft {
+    0% { bottom: -100%; }
+    50%, 100% { bottom: 100%; }
+}
+
+/* Inside Content Area Layout Protection */
+.inner-content-area {
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    padding: 10px;
+}
+
+/* Ya Ali Madad Inner Box Design */
+.card-fixed-black {
+    background: #000000 !important;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+.neon-box-container {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    border: 2px solid #00f2fe;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000 !important;
+}
+.glowing-urdu-text-box {
+    font-family: 'Noto Nastaliq Urdu', sans-serif;
+    font-size: 26px;
+    font-weight: 900 !important;
+    color: #ffffff !important;
+    text-shadow: 0 0 10px #00f2fe, 0 0 20px #ff007f;
+    margin: 0;
+}
+</style>
+
+
+        <!-- Name aur Bio -->
+        <h1>Ghulam mujtaba panhwar</h1>
+             <h1>🔥 WELECOM 🔥</h1> 
+      
+   <a href="https://temu.to/k/e9qlmxdpt17" target="_blank" class="temu-neon-glow">
+    <!-- Temu Shopping Bag Icon -->
+    <svg viewBox="0 0 24 24" style="width: 20px; height: 20px; fill: white; margin-right: 10px;">
+        <path d="M19 6h-2c0-2.76-2.24-5-5-5S7 3.24 7 6H5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-7-3c1.66 0 3 1.34 3 3H9c0-1.66 1.34-3 3-3zm7 17H5V8h14v12zm-7-8c-1.66 0-3-1.34-3-3H7c0 2.76 2.24 5 5 5s5-2.24 5-5h-2c0 1.66-1.34 3-3 3z"/>
+    </svg>
+    <span class="shimmer-text">🎁 Get Free Gift On Temu App 🎁</span>
+</a>
+
+<style>
+.temu-neon-glow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #ff4500, #ff8c00);
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    box-shadow: 0 0 15px #ff4500, 0 0 30px #ff8c00;
+    animation: neonBlink 1.5s infinite alternate;
+    transition: 0.3s;
+}
+
+/* Button ki light kam aur zyada hone ki animation */
+@keyframes neonBlink {
+    0% {
+        box-shadow: 0 0 8px #ff4500, 0 0 15px #ff8c00;
+        transform: scale(1);
+    }
+    100% {
+        box-shadow: 0 0 25px #ff4500, 0 0 50px #ff8c00;
+        transform: scale(1.02);
+    }
+}
+
+/* Likhay hue text ke andar chamak chalne ki animation */
+.shimmer-text {
+    background: linear-gradient(to right, #fff 20%, #ffeb3b 40%, #ffeb3b 60%, #fff 80%);
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textShimmer 2s linear infinite;
+}
+
+@keyframes textShimmer {
+    to {
+        background-position: 200% center;
+    }
+}
+</style>
+
+         
+             
+
+        <!-- YouTube Button with SVG Icon -->
+        <a href="https://youtube.com" class="btn youtube-btn" target="_blank">
+            <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            YouTube Channel
+        </a>
+
+        <!-- TikTok Button with SVG Icon -->
+        <a href="https://tiktok.com" class="btn tiktok-btn" target="_blank">
+            <svg viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.03 1.63 4.15 1.13 1.2 2.69 1.89 4.31 2.01v3.9c-1.29-.02-2.58-.33-3.73-.93-.84-.45-1.57-1.09-2.13-1.85-.04 2.8-.02 5.6-.04 8.4-.05 1.94-.65 3.86-1.77 5.41-1.46 2.05-3.86 3.32-6.39 3.42-2.47.13-4.96-.75-6.73-2.47-1.95-1.87-2.92-4.66-2.52-7.34.33-2.39 1.63-4.59 3.65-5.83 1.67-1.04 3.68-1.43 5.63-1.12v4.03c-1.1-.25-2.28-.05-3.24.54-.95.57-1.63 1.56-1.84 2.66-.36 1.74.45 3.6 1.97 4.45 1.4.81 3.24.63 4.46-.43.76-.64 1.18-1.61 1.2-2.61.05-3.78.02-7.57.03-11.35z"/></svg>
+            TikTok Official
+        </a>
+
+        <!-- Instagram Button with SVG Icon -->
+        <a href="https://instagram.com" class="btn instagram-btn" target="_blank">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+            Instagram Profile
+        </a>
+
+        <!-- Twitter/X Button with SVG Icon -->
+        <a href="https://x.com" class="btn twitter-btn" target="_blank">
+            <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            Twitter / X
+        </a>
+
+        <!-- Pinterest Button with SVG Icon -->
+        <a href="https://pinterest.com" class="btn pinterest-btn" target="_blank">
+            <svg viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.948-.2-2.408.042-3.443.218-.934 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.204 0 1.031.397 2.138.893 2.738.098.119.112.224.083.342-.091.381-.295 1.201-.335 1.366-.053.218-.175.264-.403.158-1.503-.7-2.442-2.902-2.442-4.667 0-3.801 2.763-7.292 7.962-7.292 4.18 0 7.428 2.978 7.428 6.96 0 4.153-2.617 7.496-6.251 7.496-1.22 0-2.368-.634-2.76-1.381l-.752 2.863c-.272 1.04-1.01 2.344-1.505 3.149C9.317 23.891 10.627 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+            Pinterest Profile
+        </a>
+
+        <!-- Monetag / Casual Jeans Button with SVG Fire Icon -->
+        <a href="https://blogspot.com" class="btn monetag-btn" target="_blank">
+            <svg viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 0 1-2.827 0l-4.244-4.243a8 8 0 1 1 11.314 0zM12 14a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+            🎁 Click Here to Download Special Offers🎁 
+        </a>
+    </div>
+  
+  <style>
+/* Ghoomti Hui Light Ka Baahri Box (Card Main Style) */
+.card {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    background: #0e0e0e !important;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 4px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+/* Background mein ghoomne wale chamkdar rang */
+.card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: conic-gradient(#ff4500, #ff007f, #00f5ff, #00ff7f, #ffea00, #ff4500);
+    animation: rotateBorder 4s linear infinite;
+    z-index: -2;
+}
+
+/* Andruni kaala dabba jo border banayega */
+.card::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+    background: #0e0e0e;
+    border-radius: 16px;
+    z-index: -1;
+}
+
+/* Border ghoomane ki animation */
+@keyframes rotateBorder {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Heading Text (Naam) ka neon glow effect */
+h1 {
+    position: relative;
+    z-index: 3;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2), 0 0 20px rgba(0, 245, 255, 0.5);
+}
+</style>
+
+
+</body>
+</html>
